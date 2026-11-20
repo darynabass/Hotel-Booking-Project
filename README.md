@@ -1,17 +1,15 @@
-# Hotel Booking API
-
-REST API specification for a hotel management system.
+# Hotel Booking Project
 
 ## Project Description
 
-Hotel Booking API provides endpoints for managing hotels and hotel rooms.
+Hotel Booking API is an educational REST API project designed for managing hotels and hotel rooms.
 
-The API is described using the OpenAPI 3.0.3 specification.
+The project includes an OpenAPI specification, a generated Python SDK client, and interactive API documentation.
 
 ## Main Entities
 
-- **Hotel** – hotel information, including name, address, city and contact details.
-- **Room** – hotel room information, including room number, type, price and capacity.
+- **Hotel** — hotel information, including name, address, city and contact details.
+- **Room** — hotel room information, including room number, type, price and capacity.
 
 ## API Operations
 
@@ -31,12 +29,45 @@ The API supports CRUD operations:
 - OpenAPI Generator
 - Zudoku
 - GitHub Pages
+- GitHub Actions
 
-## API Specification
+## Project Structure
 
-The OpenAPI document is available in `openapi/openapi.yaml`.
+```text
+Hotel-Booking-Project/
+├── openapi/
+│   └── openapi.yaml
+├── documentation/
+│   ├── apis/
+│   │   └── openapi.yaml
+│   ├── pages/
+│   │   ├── installation.mdx
+│   │   ├── authorization.mdx
+│   │   └── about.mdx
+│   └── zudoku.config.tsx
+└── .github/
+    └── workflows/
+        └── deploy.yml
+```
 
-## SDK
+## Python SDK
 
-The generated Python SDK is available in a separate repository.
+The generated Python SDK is available in a separate repository:
 
+[hotel-booking-python-sdk](https://github.com/darynabass/hotel-booking-python-sdk)
+
+## API Documentation
+
+Interactive API documentation:
+
+[Hotel Booking API — GitHub Pages](https://darynabass.github.io/Hotel-Booking-Project/)
+
+## OpenAPI Specification
+
+The OpenAPI document is available at `openapi/openapi.yaml`.
+
+## Author
+
+Daryna Bass
+
+Software Engineering Student.
