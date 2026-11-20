@@ -1,0 +1,17 @@
+# Generated SDK copy
+sdk/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node.js
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
